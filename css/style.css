@@ -46,6 +46,7 @@ h3 {
     margin: 10px 30px 0;
     border-top: solid 1px blue;
     padding: 10px 0 0 0;
+    max-width: 75%;
 }
 
 .bold {
@@ -54,14 +55,21 @@ h3 {
 
 .img-div {
     background-color: lightblue;
-}
+    }
 
 .img-div-light{
     background-color: aliceblue;
 }
 
 img {
-    width: 200px;
+    width: 14.4%;
+    height: 150px;
     box-shadow: 3px 3px 7px black; 
-    margin: 10px;
+    margin: 1%;
 }
+
+#img-1 {
+    position: fixed;
+    top: 10px;
+    left: 100px;
+    }
