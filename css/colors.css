@@ -2,5 +2,19 @@
     display: inline-block;
     width: 150px;
     height: 150px;
-    background-color: rgba(38, 29, 92, 0.8);
+    background-color: #FF00FF;
 }
+
+/*
+2 es számrendszer: 01
+3 as számrendzser: 012
+10 es számrendszer: 0123456789
+16 os számrendzser: 0123456789ABCDEF
+
+255 (10) = FF (16)
+
+(10) 255 = 2*100 + 5*10 + 5*1
+(16) FF = F*16 + F*1= 15*16 + 15*1 = 255
+
+rgb(255, 255,255) = #FFFFFF
+*/
