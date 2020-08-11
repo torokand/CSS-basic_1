@@ -5,6 +5,13 @@
     background-color: #FF00FF;
 }
 
+html {
+    background-color: #c0c0c0;
+    background-image: url("../img/jb.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
 /*
 2 es számrendszer: 01
 3 as számrendzser: 012
