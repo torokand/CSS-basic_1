@@ -1,14 +1,57 @@
-h1 {
-    color: red;
-    font-family: Arial, Helvetica, sans-serif
+@font-face {
+    font-family: "Oswald";
+    src: url("fonts/Oswald/Oswald-Regular.ttf");
+    font-weight: 500;
 }
 
+@font-face {
+    font-family: "Oswald-light";
+    src: url("fonts/Oswald/Oswald-ExtraLight.ttf");
+    font-weight: 200;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Roboto&display=swap');
+
+html
+{
+    text-transform: uppercase;
+}
+
+h1 {
+    color: blue;
+    font-family: 'Lemonada', cursive;
+    text-align: justify; 
+
+}
+
+
+    
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify; 
+}
+
+#bio-header {
+    color: brown;
+    font-family: Roboto, sans-serif;
+}
+
+#skill-header {
+    color: coral;
+}
 p {
     color:gray;
     font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-transform: lowercase;
+    line-height: normal;
+    font-weight: lighter;
 }
 
 img {
     width: 200px;
-    margin: 20px;    
+    margin: 20px;  
+    border: 10px;  
 }
