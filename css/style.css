@@ -6,3 +6,8 @@ p {
     color:gray;
     font-size: 24px;
 }
+
+img {
+    width: 200px;
+    margin: 20px;    
+}
